@@ -1366,7 +1366,7 @@ spawn(function()
     end
 end)
 
-local FastAttack = Tabs.Settings:AddToggle("FastAttack", {
+local FastAttack = Tabs.Setings:AddToggle("FastAttack", {
     Title = "Fast Attack",
     Default = Config.FastAttack,
     Callback = function(Value)
@@ -1374,7 +1374,7 @@ local FastAttack = Tabs.Settings:AddToggle("FastAttack", {
     end
 })
 
-local BringMob = Tabs.Settings:AddToggle("BringMob", {
+local BringMob = Tabs.Setings:AddToggle("BringMob", {
     Title = "Bring Mob",
     Default = Config.BringMob,
     Callback = function(Value)

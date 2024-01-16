@@ -1,3 +1,7 @@
+--[[
+    Ram : Roblox-Account-Manager
+    Script Ram Track By AVN Sercurity 1.0.1
+]]
 local RAMAccount = loadstring(game:HttpGet'https://raw.githubusercontent.com/ic3w0lf22/Roblox-Account-Manager/master/RAMAccount.lua')()
 local idk = {
     ["RAM_Track"] = true,
